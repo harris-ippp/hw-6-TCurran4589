@@ -32,4 +32,5 @@ for l in range(0, len(electionID)):
     to_push = [year, electionID_id]
     electionID[l] = to_push
 
-print(electionID)
+for z in range(0, len(electionID)):
+    print(electionID[z][0]," ",electionID[z][1])

@@ -20,7 +20,7 @@ accomack_bar.set_ylabel("Percent of Votes")
 accomack_bar.set_ylim([0,1])
 accomack_bar.set_yticklabels(['{:3.2f}%'.format(x*100) for x in accomack_bar.get_yticks()] )
 plt.title("Accomack County Share of Votes")
-accomack_bar.figure.savefig("Accomack County.pdf")
+accomack_bar.figure.savefig("Accomack_County.pdf")
 plt.show()
 
 
@@ -33,7 +33,7 @@ Alexandria_bar.set_ylabel("Percent of Votes")
 Alexandria_bar.set_ylim([0,1])
 Alexandria_bar.set_yticklabels(['{:3.2f}%'.format(x*100) for x in Alexandria_bar.get_yticks()])
 plt.title("Alexandria City Share of Votes")
-Alexandria_bar.figure.savefig("Alexandria City.pdf")
+Alexandria_bar.figure.savefig("Alexandria_City.pdf")
 plt.show()
 
 
@@ -47,7 +47,7 @@ Alleghany_bar.set_ylabel("Percent of Votes")
 Alleghany_bar.set_ylim([0,1])
 Alleghany_bar.set_yticklabels(['{:3.2f}%'.format(x*100) for x in Alleghany_bar.get_yticks()] )
 plt.title("Alleghany County Share of Votes")
-Alleghany_bar.figure.savefig("Alleghany County.pdf")
+Alleghany_bar.figure.savefig("Alleghany_County.pdf")
 plt.show()
 
 ################################################################################
@@ -59,5 +59,5 @@ Amelia_bar.set_ylabel("Percent of Votes")
 Amelia_bar.set_ylim([0,1])
 Amelia_bar.set_yticklabels(['{:3.2f}%'.format(x*100) for x in Amelia_bar.get_yticks()] )
 plt.title("Amelia County Share of Votes")
-Amelia_bar.figure.savefig("Amelia County.pdf")
+Amelia_bar.figure.savefig("Amelia_County.pdf")
 plt.show()
